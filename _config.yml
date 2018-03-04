@@ -1,0 +1,15 @@
+title: 
+author: Shinjiro Sakaitani
+lang: ja
+
+github_username: shin2ro
+twitter_username: shin2ro_o
+
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
