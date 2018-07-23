@@ -6,6 +6,10 @@
 docker build -t gh-pages .
 ```
 
+```
+docker run -d --rm -v `pwd`:/usr/src/app -p 8080:4000 gh-pages
+```
+
 ### for PowerShell
 
 ```pwsh
