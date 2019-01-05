@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ghpages:
+    image: ruby:2.4
+    environment:
+      - BUNDLE_APP_CONFIG=.bundle
+    volumes:
+      - .:/opt/ghpages
+    working_dir: /opt/ghpages
+    ports:
+      - "4000:4000"
+    command: /bin/bash -c "bundle exec jekyll serve -w --force_polling -H 0.0.0.0 -P 4000"
