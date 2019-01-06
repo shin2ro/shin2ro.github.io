@@ -1,13 +1,9 @@
 title: 
 author: Shinjiro Sakaitani
+
 lang: ja
 timezone: Asia/Tokyo
 
-github_username: shin2ro
-twitter_username: shin2ro_o
-
-markdown: kramdown
-theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -15,3 +11,9 @@ exclude:
   - README.md
   - docker-compose.yml
   - vendor/
+
+theme: minima
+
+github_username: shin2ro
+twitter_username: shin2ro_o
+
