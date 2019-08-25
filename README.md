@@ -13,6 +13,13 @@ docker run --rm -v `pwd`:/wd -w /wd -e BUNDLE_APP_CONFIG=.bundle ruby:2.4 bundle
 ```
 
 
+### Update gems
+
+```
+docker run --rm -v `pwd`:/wd -w /wd -e BUNDLE_APP_CONFIG=.bundle ruby:2.4 bundle update
+```
+
+
 ### Build local site
 
 ```
